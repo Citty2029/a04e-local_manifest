@@ -1,3 +1,6 @@
+MUST SEE how_to_build_using_crave_a04e file before building 
+
+
 ![alt text][logo]
 
 [logo]:https://crdroid.net/img/logo.png "crDroid Android"
