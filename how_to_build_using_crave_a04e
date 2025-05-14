@@ -7,7 +7,8 @@ crave run  --no-patch -- "rm -rf .repo/local_manifests;
 git clone https://github.com/Citty2029/local_manifests_all_a04e --depth 1 -b crdroid-a15 .repo/local_manifests;
 /opt/crave/resync.sh;
 source build/envsetup.sh;
-brunch a04e"
+breakfast a04e user;
+mka bacon"
 
 
 ^^ this commands will setup crave run commands and u have to wait until your turn ^^^
