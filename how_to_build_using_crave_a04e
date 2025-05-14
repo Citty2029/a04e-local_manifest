@@ -1,0 +1,19 @@
+crave list
+crave clone create --projectID=93 crdroid-a15/
+cd crdroid-a15
+  ^^ this commands will make a base project of los22.1 for building crdroid a15 ^^
+
+crave run  --no-patch -- "rm -rf .repo/local_manifests;
+git clone https://github.com/Citty2029/local_manifests_all_a04e --depth 1 -b crdroid-a15 .repo/local_manifests;
+/opt/crave/resync.sh;
+source build/envsetup.sh;
+brunch a04e"
+
+
+^^ this commands will setup crave run commands and u have to wait until your turn ^^^
+
+
+same thing applies to building other custom rom but u have to change branchname , local manifest , base project , codename , etc according to your device 
+
+thank you
+
