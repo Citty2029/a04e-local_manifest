@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <!-- Remote -->
-        <remote name="citty2029" fetch="https://github.com/Citty2029" clone-depth="1" />
-        <remote name="cr" fetch="https://github.com/crdroidandroid" clone-depth="1" />
+        <remote name="jdm" fetch="https://github.com/Samsung-Galaxy-G85-JDM" clone-depth="1" />
 
         <!-- Trees -->
-  <project path="device/samsung/a04e" name="android_device_samsung_a04e" remote="citty2029" revision="lineage-21.0" />    
-  <project path="device/samsung/mt6765-jdm" name="android_device_samsung_a04e-common" remote="citty2029" revision="lineage-21.0" />
+  <project path="device/samsung/a04e" name="android_device_samsung_a04e" remote="jdm" revision="lineage_21" />    
+  <project path="device/samsung/mt6765-jdm" name="android_device_samsung_mt6765-jdm" remote="jdm" revision="lineage-22" />
   <project path="vendor/samsung/lpm" name="device_vendor_samsung_a04e" remote="citty2029" revision="lineage-21.0" />
-  <project path="vendor/samsung/hq-camera" name="vendor_samsung_hq-camera" remote="citty2029" revision="main" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cr" revision="15.0" />
+  <project path="vendor/samsung/hq-camera" name="vendor_samsung_hq-camera" remote="jdm" revision="main" />
 </manifest>
