@@ -5,7 +5,7 @@
 
         <!-- Trees -->
   <project path="device/samsung/a04e" name="android_device_samsung_a04e" remote="jdm" revision="lineage_21" />    
-  <project path="device/samsung/mt6765-jdm" name="android_device_samsung_mt6765-jdm" remote="jdm" revision="lineage-22" />
-  <project path="vendor/samsung/lpm" name="device_vendor_samsung_a04e" remote="citty2029" revision="lineage-21.0" />
+  <project path="device/samsung/mt6765-jdm" name="android_device_samsung_mt6765-jdm" remote="jdm" revision="test" />
+  <project path="vendor/samsung/lpm-p35" name="vendor_samsung_lpm-p35" remote="jdm" revision="main" />
   <project path="vendor/samsung/hq-camera" name="vendor_samsung_hq-camera" remote="jdm" revision="main" />
 </manifest>
